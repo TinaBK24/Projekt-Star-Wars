@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projekt-Star-Wars</title>
+</head>
+
+<body>
+  <header>
+    <a href="./index.html">
+      <img src="./src/img/star-wars.png" alt="Star Wars">
+    </a>
+    <nav>
+      <div class="inputs">
+        <input type="text" id="searchInput">
+        <input type="button" value="Search" id="searchBtn">
+      </div>
+      <div id="buttonsDiv" style="display: none;">
+        <button id="filmsBtn">Films</button>
+        <button id="planetsBtn">Planets</button>
+        <button id="peopleBtn">People</button>
+      </div>
+    </nav>
+  </header>
+  <main id="outputDisplay">
+    <div id="bigButtonsDiv">
+      <button id="filmsBigBtn">Films</button>
+      <button id="planetsBigBtn">Planets</button>
+      <button id="peopleBigBtn">People</button>
+    </div>
+  </main>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
