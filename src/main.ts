@@ -242,7 +242,7 @@ async function searchInPeople(query: string) {
   }
 }
 
-async function displaySearchResults<Result>(category: string, results: Result[], displayFunc: (result: Result) => string | Promise<string>) {
+async function displaySearchResults<T>(category: string, results: T[], displayFunc: (result: T) => string | Promise<string>) {
 
   if (results.length !== 0) {
 
